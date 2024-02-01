@@ -1,0 +1,8 @@
+<person>
+    <name>Larry</name>
+    <age>62</age>
+    <country>USA</country>
+    <hobbies>
+        <hobby>Golf</hobby>
+    </hobbies>
+</person>
