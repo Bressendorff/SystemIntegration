@@ -4,5 +4,7 @@
     <country>USA</country>
     <hobbies>
         <hobby>Golf</hobby>
+        <hobby>Grilling</hobby>
+        <hobby>Joking</hobby>
     </hobbies>
 </person>

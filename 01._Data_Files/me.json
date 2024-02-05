@@ -1,1 +1,8 @@
-{ "Name": "Larry", "Age": 62, "Country": "USA", "Hobbies": ["Golf"] }
+[
+  {
+    "Name": "Larry",
+    "Age": 62,
+    "Country": "USA",
+    "Hobbies": ["Golf", "Frolf", "Tennis"]
+  }
+]
