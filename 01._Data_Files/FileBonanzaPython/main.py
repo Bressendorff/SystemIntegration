@@ -1,14 +1,28 @@
 import json
 import xml.etree.cElementTree as ET
 import csv
+import yaml
+from yaml import load
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loader
 
 base_path = "C:\\KEA\\System Integration\\SystemIntegrationAssignments\\01._Data_Files\\"
 
 
 def main():
-    print_json_content()
-    print_csv_content()
-    print_xml_content()
+    #print_json_content()
+    #print_csv_content()
+    #print_xml_content()
+    #print_yaml_content()
+    print_text_content()
+
+
+def print_text_content():
+    text_file = open(base_path + "me.txt")
+    content = text_file.read()
+    print(content)
 
 
 def print_json_content():
@@ -23,6 +37,13 @@ def print_csv_content():
         csv_reader = csv.reader(csvfile, delimiter=';', quotechar='|')
         for row in csv_reader:
             print(', '.join(row))
+
+
+def print_yaml_content():
+    yaml_file = open(base_path + "me.yaml", 'r')
+    content = yaml.load(yaml_file, Loader)
+    for key, value in content.items():
+        print(key, value)
 
 
 def print_xml_content():
