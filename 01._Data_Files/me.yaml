@@ -1,10 +1,6 @@
-name:
-  larry
-age:
-  21
-country:
-  USA
+name: larry
+age: 21
+country: USA
 hobbies:
   - golf
   - eating
-    
