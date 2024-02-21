@@ -12,10 +12,10 @@ base_path = "C:\\KEA\\System Integration\\SystemIntegrationAssignments\\01._Data
 
 
 def main():
-    #print_json_content()
-    #print_csv_content()
-    #print_xml_content()
-    #print_yaml_content()
+    print_json_content()
+    print_csv_content()
+    print_xml_content()
+    print_yaml_content()
     print_text_content()
 
 

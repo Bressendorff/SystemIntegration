@@ -711,3 +711,5 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/python,node,visualstudio
 /02._Modules
 /00._Miscellaneous
+
+.parcel-cache
